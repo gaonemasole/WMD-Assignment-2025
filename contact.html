@@ -1,0 +1,58 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - PL-STORE</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo-container">
+            <img src="logo.jpg" alt="PL-STORE Logo" class="logo">
+            <p class="brand-name">PL-STORE</p>
+        </div>
+    
+
+    <!-- Contact Form Section -->
+    <section class="contact-us">
+        <div class="contact-form-container">
+            <h1>Get in Touch</h1>
+            <form action="submit_contact.php" method="POST" class="contact-form">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" placeholder="Write your message here..." rows="6" required></textarea>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+        <!-- Contact Information -->
+        <div class="contact-info">
+            <h2>Our Contact Information</h2>
+            <p><strong>Email:</strong> plstore16@gmail.com</p>
+            <p><strong>Phone:</strong> +267 77913604</p>
+            <p><strong>WhatsApp</strong> +267 755461259</p>
+            <p><strong>Address:</strong> Mogoditshane,Gaborone,Botswana</p>
+
+            <button onclick="window.history.back()" class="back-button">Back</button>
+
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2022 PL-STORE. All rights reserved.</p>
+    </footer>
+</body>
+</html>
